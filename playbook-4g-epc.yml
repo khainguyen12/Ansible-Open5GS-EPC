@@ -12,7 +12,7 @@
         ip_address_MONGO_DB: '192.186.4.10'
         ip_address_OAISIM_ENB: '192.186.4.253'
         ip_address_OAISIM_UE: '192.186.4.254'
-
+        force_docker_reinstall: 'false'
         EPC_container_name: 'epc'
         mongo_db_host_access_port: '27017'
         mongo_db_container_expose_port: '27017'
