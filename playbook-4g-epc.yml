@@ -52,7 +52,7 @@
             msg: "khong tim thay dia chi IP cua thiet bi mang"
           when: internet_network_interface == ''
 
-        - name  : Xac thuoc moi truong
+        - name  : Xac thuc moi truong
           assert:
             that:
               - ansible_memtotal_mb >= 1048
